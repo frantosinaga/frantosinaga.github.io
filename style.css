@@ -1,0 +1,78 @@
+* {
+    margin:0;
+    padding:0;
+}
+html{
+    background-color: red;
+}
+
+.container{
+    max-width:500px;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url("keren.gif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.profile{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+
+
+}
+
+.profile > img {
+    width: 150px;
+    height: 150px;
+    border : 3px solid white;
+    border-radius: 100%;
+
+}
+
+.profile > p {
+    font-size: 2 em;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Rubik Iso', cursive;
+}
+
+.link > a {
+    text-decoration: none;
+    background-color: rgb(233, 216, 216);
+    color: green;
+    font-size: 25px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 5px 3px;
+    padding: 10px;
+    font-weight: 600;
+    
+}
+
+.link > a:hover {
+    background-color: azure;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    
+}
